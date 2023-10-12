@@ -1,5 +1,4 @@
 <?php
-
 class Person {
     public $nume;
     public $varsta;
@@ -11,7 +10,6 @@ class Person {
         return "Nume : ".$this->nume." in varsta de ".$this->varsta." ani";
     }
 }
-
 class Student extends Person {
     public $facultate;
     public function __construct($nume, $varsta,$facultate)
@@ -25,7 +23,6 @@ class Student extends Person {
 }
 
 $persoana1 = new Person('John',30);
-
 echo "Ma numesc ".$persoana1->nume." si am ".$persoana1->varsta." ani!";
 echo "<br/>";
 echo $persoana1->afiseazaDetalii();
