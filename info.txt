@@ -1,0 +1,27 @@
+1.Declarați o clasă numită Person cu două proprietăți: nume și varsta.
+
+2.Creați un constructor pentru această clasă care primește un nume și o vârstă ca argumente și le atribuie proprietăților corespunzătoare.
+
+3.Creați o instanță a clasei Person cu numele "John" și vârsta de 30 de ani. Afișați informațiile despre această persoană.
+
+4.Adăugați o metodă numită afiseazaDetalii la clasa Person, care afișează numele și vârsta persoanei.
+Apoi apelați această metodă pentru instanța creată în exercițiul anterior.
+
+5.Declarați o altă clasă numită Student care extinde clasa Person. Adăugați o proprietate suplimentară numită facultate.
+Modificați constructorul pentru a primi și seta numele facultății.
+
+6.Creați o instanță a clasei Student cu numele "Alice", vârsta de 25 de ani și facultatea "Informatică". Afișați informațiile despre acest student.
+
+7.Adăugați o metodă numită afiseazaDetalii la clasa Student care afișează numele, vârsta și facultatea studentului.
+Apoi apelați această metodă pentru instanța de student creată în exercițiul anterior.
+
+8.Declarați o clasă abstractă numită Animal cu o metodă abstractă numită sunet.
+
+9.Creați două clase care extind clasa Animal: Caine și Pisica.
+Pentru fiecare dintre aceste clase, implementați metoda sunet pentru a returna sunetul specific (de exemplu, "Ham" pentru un câine și "Miau" pentru o pisică).
+
+10.Creați o instanță a clasei Caine și una a clasei Pisica. Apelați metoda sunet pentru fiecare dintre aceste instanțe și afișați sunetul corespunzător.
+
+11.Declarați o clasă Calculator cu o proprietate numită rezultat.
+Adăugați metode pentru adunare, scădere, înmulțire și împărțire, care primesc două numere ca argumente și efectuează operațiile corespunzătoare,
+actualizând proprietatea rezultat.
